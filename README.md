@@ -77,34 +77,37 @@ Criterio de aceptación:
 
 ## 2. Encuestas para prototipado
 Para comenzar a crear la app, realizamos una encuesta que nos ayudó a definir la vista y enfoque que le dariamos en base a lo que el usuario busca. Algunos de estos resultados fueron los siguientes: 
-
-https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/encuesta/01_encuesta.png?raw=true
-https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/encuesta/login.png?raw=true
-https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/encuesta/tematica.png?raw=true
-
+<br></br>
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/encuesta/01_encuesta.png?raw=true)
+<br></br>
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/encuesta/login.png?raw=true)
+<br></br>
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/encuesta/tematica.png?raw=true)
 ## 3. Diseño de Interfaz de Usuario
 Prototipo de baja:
 Para comenzar creamos un prototipo de baja donde nos enfocamos primeramente en una versión mobile de la app, donde acogimos los resultados de la encuesta realizada en un comienzo para que esta sea amigable con el usuario y enfocada a lo que ellos buscan.
+<br></br>
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/baja%20mobile.png?raw=true)
 
-https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/baja%20mobile.png?raw=true
 
 Prototipo de alta:
 Finalmente luego de muchos cambios en nuestro prototipo inicial, acogiendo los distintos feedback recibidos, llegamos a crear a través de Figma (herramienta de generación de prototipos) lo que sería nuestro prototipo final de cómo se visualizaría la aplicación tanto en versión mobile como web.
-
-https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/alta%20mobile.png?raw=true
-https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/alta%20web.png?raw=true
+<br></br>
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/alta%20mobile.png)
+<br></br>
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/alta%20web.png)
 
 ## 4. Test de Usabilidad 
 
 Se realizaron pruebas de usabilidad a 9 usuarios que cumplen con el perfil definido, lo cual ayudo a complementar nuestras historias de usuario, logrando una mejor experiencia para este.
 
-Algunos de los comentarios recibidos fueron: 
-https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/encuesta.png?raw=true
+Algunos de los comentarios recibidos fueron:
+<br></br> 
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/encuesta.png)
+
 
 
 ## 5. MOVIE MATE 
-Nuestra aplicación finalmente 
-
-(Intro resultado Final)
+Nuestra aplicación finalmente logra que los usuarios mayores de 18 puedan crear una cuenta o iniciando sesión con Google. Una vez logeado el usuario tendrá un scroll donde se visualizarán los últimos estrenos en cartelera, encontrará post creados por distintos usuarios donde podrá dar y quitar likes. Cada usuario contará con un perfil donde tendrá una sección para crear post, eliminarlos y editarlos. Contará con un botón que permitirá al usuario poder cerrar sesión.
 
 Imagenes del resultado de nuestra app. 
