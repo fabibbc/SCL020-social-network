@@ -111,3 +111,13 @@ Algunos de los comentarios recibidos fueron:
 Nuestra aplicación finalmente logra que los usuarios mayores de 18 puedan crear una cuenta o iniciando sesión con Google. Una vez logeado el usuario tendrá un scroll donde se visualizarán los últimos estrenos en cartelera, encontrará post creados por distintos usuarios donde podrá dar y quitar likes. Cada usuario contará con un perfil donde tendrá una sección para crear post, eliminarlos y editarlos. Contará con un botón que permitirá al usuario poder cerrar sesión.
 
 Imagenes del resultado de nuestra app. 
+
+Imágenes de la versión movil:
+
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/01_home-view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/02_age_confirmation_view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/03_age_redirect-view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/04_welcome-view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/05_login-view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/06_feed-view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/07_profile-view.jpg?raw=true)
