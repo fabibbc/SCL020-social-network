@@ -7,7 +7,6 @@ export const saveTask = contentPost => {
         created: new Date(),
         useruid: auth.currentUser.uid,
         username: auth.currentUser.displayName,
-        // postId: postId,
         like: 0,
         dislike: 0,
         userlikes: [],
@@ -20,7 +19,7 @@ export const getTask = () => {
     return getDocs(collection(db, "task"))
 };
 
-/*Order profile post*/
+/* DETECTING CHANGES ON DATA POST */
 export const getTaskUser = (callback) => {
     const q = query(
         collection(db, "task"),
@@ -30,6 +29,7 @@ export const getTaskUser = (callback) => {
     return(onSnapshot(q, (callback)))
 };
 
+/* GET DATA FROM POST (Profile)*/
 export const getTaskUser2 = () => {
     const q = query(
         collection(db, "task"),
@@ -39,13 +39,15 @@ export const getTaskUser2 = () => {
     return(getDocs(q));
 };
 
-export const onGetTask2 = () => {
-    const q = query(
-        collection(db, "task"),
-        orderBy('created', 'desc')
-    );
-    return(getDocs(q));
-};
+/* show post in feed */
+// export const onGetTask2 = () => {
+//     const q = query(
+//         collection(db, "task"),
+//         orderBy('created', 'desc')
+//     );
+//     return(getDocs(q));
+// };
+
 /*Order feed post*/
 export const onGetTask = (callback) => {
     const q = query(
@@ -55,7 +57,6 @@ export const onGetTask = (callback) => {
     return(onSnapshot(q, (callback)))
 };
 
-//export const onGetTask = (callback) => onSnapshot(collection(db, "task"), callback);
 
 export const deleteTask = (id) => deleteDoc(doc(db, "task", id));
 
@@ -64,65 +65,6 @@ export const getTasks = (id) => getDoc(doc(db, "task", id));
 export const UpdateTask = (id, data) => {
     const postDocRef = doc(db, "task", id);
     return updateDoc(postDocRef,data)
-}
+};
 
-// const saveUserName = async (data)=> {
-//     try {
-//         const docRef = await addDoc(collection(db, "user"),dataUser)// data con nombre de usuario y uid
-//         console.log("Document written with ID: ", docRef.id);
-//     } catch (e) {
-//         console.error("Error adding document: ", e);
-//     }
-// }
-
-
-// export const likeStatus = async (postId, userUid) => {
-//     postId = postId.replace('like-', '');
-//     const postInfo = await getPostById(postId);
-//     const arrUserLiked = postInfo.postData.UsersWhoLiked;
-//     const likeCount = postInfo.postData.LikeCount;
-//     if (arrUserLiked.includes(userUid)) {
-//       // arrUserLiked: arrayRemove(userUid);
-//     await updateDoc(postInfo.docRef, {
-//         UsersWhoLiked: arrayRemove(userUid),
-//         LikeCount: likeCount - 1,
-//     });
-//     return true;
-//     } else {
-//       // arrUserLiked: arrayUnion(userUid);
-//         await updateDoc(postInfo.docRef, {
-//         UsersWhoLiked: arrayUnion(userUid),
-//         LikeCount: likeCount + 1,
-//         });
-//     return false;
-//     }
-// };
-
-
-// export const addLike = async (postId) => {
-    
-//     const postId = await doc(db, "task", id);
-//     console.log(postId);
-    
-
-//     // await updateDoc(doc(db, 'task', id)   // });
-// };
-
-
-// export const saveUser = async (name, email, uid) => {
-//     addDoc(
-//         collection(db, 'user'),
-//         {
-//         name,
-//         email,
-//         uid,
-//         },
-//     );
-// };
-
-//   export const removeLike = async (id, uidUser) => {
-//     await updateDoc(doc(db, 'task', id), {
-//       usersLikes: arrayRemove(uidUser),
-//     });
-//   };
 

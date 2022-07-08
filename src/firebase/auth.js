@@ -46,8 +46,6 @@ export const logIn = async (email, password) => {
     try {
         const userCredential = await signInWithEmailAndPassword(auth, email, password);
         showTemplate("#/feed");
-        //console.log("Correct Login");
-        //console.log(userCredential);
         return userCredential;
     }
     catch (error) {
@@ -55,9 +53,8 @@ export const logIn = async (email, password) => {
             swal("Error, user not found")
         }
         else {
-            //console.log("Invalid Login");
+            console.log("Invalid Login");
         }
-        // console.log(error); 
         throw error.message
     }
 };
@@ -94,7 +91,6 @@ export const logout = async () => {
     try {
         const response = await signOut(auth);
         showTemplate("#/");
-        //console.log("sesion cerrada");
         return response;
     }
     catch (error) {
