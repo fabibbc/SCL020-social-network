@@ -110,4 +110,25 @@ Algunos de los comentarios recibidos fueron:
 ## 5. MOVIE MATE 
 Nuestra aplicación finalmente logra que los usuarios mayores de 18 puedan crear una cuenta o iniciando sesión con Google. Una vez logeado el usuario tendrá un scroll donde se visualizarán los últimos estrenos en cartelera, encontrará post creados por distintos usuarios donde podrá dar y quitar likes. Cada usuario contará con un perfil donde tendrá una sección para crear post, eliminarlos y editarlos. Contará con un botón que permitirá al usuario poder cerrar sesión.
 
-Imagenes del resultado de nuestra app. 
+Imagenes del resultado de nuestra app
+
+Imágenes de la versión movil:
+
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/01_home-view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/02_age_confirmation_view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/03_age_redirect-view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/04_welcome-view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/05_login-view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/06_feed-view.jpg?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/07_profile-view.jpg?raw=true)
+
+
+Imagenes de la versión web:
+
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/01_Home%20View.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/02_age_confirmation-view.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/03_age_redirect-view.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/04_signin-view.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/05_login-view.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/06_feed-view.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/07_profile-view.png?raw=true)
