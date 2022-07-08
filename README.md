@@ -121,3 +121,17 @@ Imágenes de la versión movil:
 ![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/05_login-view.jpg?raw=true)
 ![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/06_feed-view.jpg?raw=true)
 ![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/mobile-v/07_profile-view.jpg?raw=true)
+<<<<<<< HEAD
+=======
+
+
+Imagenes de la versión web:
+
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/01_Home%20View.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/02_age_confirmation-view.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/03_age_redirect-view.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/04_signin-view.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/05_login-view.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/06_feed-view.png?raw=true)
+![alt text](https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/web-v/07_profile-view.png?raw=true)
+>>>>>>> ac94a460e8a66465dd376db3e2ae494b886f8382
