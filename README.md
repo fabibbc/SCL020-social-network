@@ -1,7 +1,7 @@
 ## Social Network: Movie Mate
 
 MovieMate es una aplicación enfocada para personas mayores de 18 que sean fanáticos del cine y estén dispuestos a dar sus comentarios acerca de películas que hayan visto.
-En esta aplicación cada usuario tendrá un perfil donde podrá crear sus post, editarlos y eliminarlos, estos post irán a un feed compartido donde otros usuarios puedan leer sus post y dar like a estos.holi
+En esta aplicación cada usuario tendrá un perfil donde podrá crear sus post, editarlos y eliminarlos, estos post irán a un feed compartido donde otros usuarios puedan leer sus post y dar like a estos.holis
 
 ## Accede a la App (Link del proyecto)
 
